@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.striped-background {
+    background-image: linear-gradient(135deg, #7f51bd 37.50%, #664194 37.50%, #664194 50%, #7f51bd 50%, #7f51bd 87.50%, #664194 87.50%, #664194 100%);
+    background-size: 5.66px 5.66px;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.overlay-transparent{
+    background-color: transparent !important;
+}
+
+.row-page{
+    height: 65vh;
+}
+
+.row-page-2{
+    height: 130vh;
+}
+
+.row-page-3{
+    height: 195vh;
+}
+
+@media (min-width: 768px) { 
+    .row-page{
+        min-height: 65vh;
+    }
+}
+
+.test{
+    border: brown 1px solid;
+}
+
+.container-body{
+    margin-top: 120px;
+
+}
+
+
+.title-maldittocast{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    letter-spacing: -0.065em;
+    line-height: 0.85;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.title-maldittocast-below-text{
+    font-weight: 400;
+    color: #ffbf01;
+    letter-spacing: -0.025em;
+
+    font-size: 35px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+.page-one{
+    padding-top: 22.5%;
+    height: 100%;
+    
+}
+
+.emoji{
+    padding: 10% 20%;
+    font-size: 30px;
+    color: white;
+}
+
+img{
+    height: 150%;
+}
+
+.malditto-logo-title{
+    position: relative;
+    right: 10px;
+    bottom: 200px;
+    height: 40vw;
+    min-height: 450px;
+    -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,0.3) );
+    filter: drop-shadow(0 0 25px rgba(0,0,0,0.3));
+}
+
+
+.celular{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.redes-sociais{
+    position:relative;
+    bottom: 120px;
+    left: 60px;
+    height: auto;
+}
+
+@media (min-width: 768px) { 
+    .bg-light-shadow {
+        -webkit-box-shadow: 0 0px 50px rgba(0,0,0,0.35);
+        -moz-box-shadow: 0 0px 50px rgba(0,0,0,0.35);
+        box-shadow: 0 0px 50px rgba(0,0,0,0.35);
+    }
+}
+
+.page-one{
+    padding-top: 22.5%;
+    height: 100%;
+}
+
+.um-podcast-que-infelizmente{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: -0.065em;
+    line-height: 1.25;
+    color: #8539a0;
+}
+
+.um-podcast-que-tentamos{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: -0.065em;
+    line-height: 1;
+    color: #616368;
+}
+
