@@ -9,14 +9,11 @@
   <title>Maldittocast</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-    type="text/css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
@@ -27,25 +24,7 @@
 
 <body class="striped-background">
 
-  <div class="background-paricles">
-    <div class="white">
-      <div class="squares">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-      </div>
-    </div>
-    <div class="grey"></div>
-  </div>
-
-  <nav class="navbar navbar-expand-lg navbar-dark ">
+  <nav class="navbar navbar-expand-sm">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
         <span class="navbar-toggler-icon"></span>
@@ -72,59 +51,247 @@
     </div>
   </nav>
 
-  <div class="container container-body">
-    <div class=" row row-page m-md-5 p-md-5">
 
-      <div class="col-sm-6  page-one">
-        <p class="text-left text-uppercase title-maldittocast">
+  <div class="container container-body">
+    <!-- INTRO -->
+    <section class="row row-page m-md-5 p-md-5 d-flex align-items-center intro-section parallax-wrap">
+
+      <div class="col-12 col-lg-6 main-text" value="-1">
+        <p class="text-left text-uppercase title-maldittocast text-center text-lg-start">
           <span style="color: #ffbf01;">malditto</span>
           <br>
           <span style="color: white ;">cast</span>
         </p>
-        <p class="title-maldittocast title-maldittocast-below-text">
+        <p class="title-maldittocast title-maldittocast-below-text text-center text-lg-start">
           Pior Podcast da <br>sua quarta-feira
         </p>
-        <p class="title-maldittocast title-maldittocast emoji">
+        <p class="title-maldittocast title-maldittocast emoji d-none d-lg-block">
           (づ｡◕‿‿◕｡)づ
         </p>
       </div>
 
-      <div class="col-sm-6  page-one">
+      <div class="col-sm-6  d-none d-lg-block" value="-3">
         <img id="malditto-logo" class="malditto-logo-title" src="img/malditto-logo-title.png" alt="">
       </div>
+    </section>
 
-    </div>
-    <div class="row row-page row-page-2 bg-light bg-light-shadow">
-      <div class="col-sm-6  page-one">
-        <img class="redes-sociais" src="img/Untitled-4.png" alt="">
-        <img class="celular" style="z-index: 4;" src="img/Untitled-2.png" alt="">
-        <img class="celular" style="z-index: 1; bottom:52.5%;" src="img/Untitled-3.png" alt="">
-
-      </div>
-      <div class="col-sm-6  page-one">
-        <div class="page-one ">
-          <p class="um-podcast-que-infelizmente">
-            Um Podcast que, infelizmente,<br>
-            está em todos os lugares
-          </p>
-          <p class="um-podcast-que-tentamos">
-            Um podcast em que tentamos dar respostas<br>
-            às perguntas que ninguém quer saber
-          </p>
+    <!-- SOCIAL MEDIA -->
+    <div class="row bg-light bg-light-shadow row-lg-12">
+      <div class="col-md-7">
+        <div class="row px-4 py-5">
+          <img src="img/Untitled-4.png" alt="">
         </div>
       </div>
+
+      <!-- FIRST PAGE -->
+      <div class="row my-3  parallax-wrap">
+        <div class="col-md-6 align-middle" value="-2">
+          <img class="celular" style="z-index: 4;" src="img/Untitled-2.png" alt="">
+        </div>
+        <div class="col-md-6 py-5">
+          <div class="row m-1">
+            <p class="um-podcast-que-infelizmente  py-2">
+              Um Podcast que, infelizmente,
+              está em todos os lugares
+            </p>
+            <p class="um-podcast-que-tentamos  py-2">
+              Um podcast em que tentamos dar respostas
+              às perguntas que ninguém quer saber
+            </p>
+          </div>
+          <br>
+          <a href="#" class="row my-4 mx-1 link-podcast">
+            <div class="col-2 d-sm-none d-xl-block">
+              <div class="circle circle-apple">
+                <img src="img/apple-podcast-icon.png" class="icon icon-apple-podcast d-none d-sm-block">
+              </div>
+            </div>
+            <div class="col-10">
+              <p class="podcast-section apple podcast-section-title">
+                Apple Podcasts
+              </p>
+              <p class="podcast-section">
+                Você pode ouvir um monte de
+                jovem tentando falar sobre alguma
+                coisa pelos serviços Apple.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="row my-4 mx-1 link-podcast">
+            <div class="col-2 d-sm-none d-xl-block">
+              <div class="circle circle-google">
+                <img src="img/google-podcast-icon.png" class="icon icon-google-podcast d-none d-sm-block">
+              </div>
+            </div>
+            <div class="col-10">
+              <p class="podcast-section google podcast-section-title">
+                Google Podcasts
+              </p>
+              <p class="podcast-section">
+                Você também pode ouvir pelo
+                Google Podcast, que eu nem sabia
+                que existia pra começo de conversa.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="row my-4 mx-1 link-podcast">
+            <div class="col-2 d-sm-none d-xl-block">
+              <div class="circle circle-spotify">
+                <img src="img/spotify-podcast-icon.png" class="icon icon-spotify-podcast d-none d-sm-block">
+              </div>
+            </div>
+            <div class="col-10">
+              <p class="podcast-section spotify podcast-section-title">
+                Spotify
+              </p>
+              <p class="podcast-section">
+                Ou você ouve pela biblioteca
+                de música mais top
+                (mesmo não sendo música rsrs).
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- CONTENT -->
+        <!-- <div class="row row-page row-page-3 bg-light bg-light-shadow" style="display: none;">
+      <div class="row">
+        <div class="col-sm-6 page-75">
+          <img class="redes-sociais" src="img/Untitled-4.png" alt="">
+          <div>
+            <img class="celular" style="z-index: 4;" src="img/Untitled-2.png" alt="">
+            <img class="celular" style="z-index: 1;" src="img/Untitled-3.png" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="">
+            <div class="row  m-1">
+              <p class="um-podcast-que-infelizmente">
+                Um Podcast que, infelizmente,<br>
+                está em todos os lugares
+              </p>
+              <p class="um-podcast-que-tentamos">
+                Um podcast em que tentamos dar respostas<br>
+                às perguntas que ninguém quer saber
+              </p>
+            </div>
+            <br>
+            <a href="#" class="row my-4 mx-1">
+              <div class="col-2">
+                <div class="circle circle-apple"></div>
+
+              </div>
+              <div class="col-10">
+                <p class="podcast-section apple podcast-section-title">
+                  Apple Podcasts
+                </p>
+                <p class="podcast-section">
+                  Você pode ouvir um monte de
+                  jovem tentando falar sobre alguma
+                  coisa pelos serviços Apple.
+                </p>
+              </div>
+            </a>
+            <a href="#" class="row my-4 mx-1 ">
+              <div class="col-2">
+                <div class="circle circle-google"></div>
+              </div>
+              <div class="col-10">
+                <p class="podcast-section google podcast-section-title">
+                  Google Podcasts
+                </p>
+                <p class="podcast-section">
+                  Você também pode ouvir pelo
+                  Google Podcast, que eu nem sabia
+                  que existia pra começo de conversa.
+                </p>
+              </div>
+            </a>
+            <a href="#" class="row my-4 mx-1">
+              <div class="col-2">
+                <div class="circle circle-spotify"></div>
+
+              </div>
+              <div class="col-10">
+                <p class="podcast-section spotify podcast-section-title">
+                  Spotify
+                </p>
+                <p class="podcast-section">
+                  Ou você ouve pela biblioteca
+                  de música mais top
+                  (mesmo não sendo música rsrs).
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 page-100-p-0">
+          fsdfsd
+        </div>
+        <div class="col-6 page-100-p-0">
+          fsdfsd
+        </div>
+
+      </div>
+    </div> -->
+
+      </div>
+
+      <!-- SECOND PAGE -->
+      <div>
+        <div class="row justify-content-center align-items-center g-2 px-5 mx-5 my-3">
+          <div class="col-md-6 text-end px-md-5 divider-div">
+            <p class="algo-melhor-pra-ouvir">
+              Olha, se eu fosse vc procuraria algo melhor pra ouvir
+            </p>
+          </div>
+          <div class="col-md-6 p-5">
+            <p class="section">
+              O Maldittocast se reúne para debater sobre contratempos cotidianos e filosofadas, tentando dar respostas
+              às perguntas que ninguém quer saber.
+            </p>
+          </div>
+        </div>
+
+        <!-- THIRD PAGE -->
+
+      </div>
+
     </div>
-  </div>
-
-  <div class="white-content">
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/index.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
 </body>
+
+<script>
+  const nav = document.querySelector(".navbar");
+  window.onscroll = function (event) {
+    var scroll = window.pageYOffset;
+    if (scroll > 200) {
+      nav.classList.add('color-change')
+    } else {
+      nav.classList.remove('color-change')
+    }
+  };
+
+
+  let logo = document.querySelector("#malditto-logo");
+  let text = document.querySelector(".main-text");
+
+  if (matchMedia('(pointer:fine)').matches) {
+    document.addEventListener("mousemove", parallax);
+  }
+  function parallax(event) {
+    this.querySelectorAll(".parallax-wrap div").forEach((shift) => {
+      const position = shift.getAttribute("value");
+      const x = (window.innerWidth - event.pageX * position) / 90;
+      const y = (window.innerHeight - event.pageY * position) / 90;
+
+      shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+  }
+
+
+</script>
 
 </html>

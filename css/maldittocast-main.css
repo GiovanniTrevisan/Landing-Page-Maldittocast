@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-body{
+body {
     overflow-y: scroll;
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .striped-background {
@@ -10,128 +10,264 @@ body{
     background-size: 5.66px 5.66px;
 }
 
-.navbar{
+.navbar {
     background-color: transparent;
 }
 
-.overlay-transparent{
+.overlay-transparent {
     background-color: transparent !important;
 }
 
-.row-page{
+.row-page {
     height: 65vh;
 }
 
-.row-page-2{
+.row-page-2 {
     height: 130vh;
 }
 
-.row-page-3{
+.row-page-3 {
     height: 195vh;
 }
 
-@media (min-width: 768px) { 
-    .row-page{
+@media (min-width: 768px) {
+    .row-page {
         min-height: 65vh;
     }
 }
 
-.test{
-    border: brown 1px solid;
-}
-
-.container-body{
+.container-body {
     margin-top: 120px;
 
 }
 
 
-.title-maldittocast{
+.title-maldittocast {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 80px;
     letter-spacing: -0.065em;
     line-height: 0.85;
-    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-.title-maldittocast-below-text{
+.title-maldittocast-below-text {
     font-weight: 400;
     color: #ffbf01;
     letter-spacing: -0.025em;
 
     font-size: 35px;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
-.page-one{
+.page-one {
     padding-top: 22.5%;
     height: 100%;
-    
+
 }
 
-.emoji{
+.emoji {
     padding: 10% 20%;
     font-size: 30px;
     color: white;
 }
 
-img{
+img {
     height: 150%;
 }
 
-.malditto-logo-title{
-    position: relative;
-    right: 10px;
-    bottom: 200px;
-    height: 40vw;
-    min-height: 450px;
-    -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,0.3) );
-    filter: drop-shadow(0 0 25px rgba(0,0,0,0.3));
+.test {
+    border: brown 1px solid;
 }
 
+.malditto-logo-title {
+    width: 120%;
+    height: auto;
+    -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.3));
+    -webkit-animation: rotation 240s infinite linear;
+}
 
-.celular{
-    position: relative;
-    width: 100%;
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.celular {
+    width: 110%;
     height: auto;
 }
 
-.redes-sociais{
-    position:relative;
+.redes-sociais {
+    position: relative;
     bottom: 120px;
     left: 60px;
     height: auto;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .bg-light-shadow {
-        -webkit-box-shadow: 0 0px 50px rgba(0,0,0,0.35);
-        -moz-box-shadow: 0 0px 50px rgba(0,0,0,0.35);
-        box-shadow: 0 0px 50px rgba(0,0,0,0.35);
+        -webkit-box-shadow: 0 0px 50px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 0 0px 50px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0px 50px rgba(0, 0, 0, 0.35);
     }
 }
 
-.page-one{
+.page-100 {
     padding-top: 22.5%;
     height: 100%;
 }
 
-.um-podcast-que-infelizmente{
+.page-100-p-0 {
+    padding-top: 22.5%;
+    height: 100%;
+}
+
+.page-75 {
+    padding-top: 22.5%;
+    height: 75%;
+}
+
+.um-podcast-que-infelizmente {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 1.4rem;
     letter-spacing: -0.065em;
     line-height: 1.25;
     color: #8539a0;
 }
 
-.um-podcast-que-tentamos{
+.um-podcast-que-tentamos {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1rem;
     letter-spacing: -0.065em;
     line-height: 1;
     color: #616368;
 }
 
+
+.podcast-section {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.065em;
+    line-height: 0.85;
+    color: #616368;
+}
+
+.page-one>div>.podcast-section {
+    width: 65%;
+}
+
+.podcast-section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.google {
+    color: #4848d4;
+}
+
+.apple {
+    color: #aa1dd3;
+}
+
+.spotify {
+    color: #19c456;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+}
+
+.circle-google {
+    background: #f4f4ff;
+}
+
+.circle-spotify {
+    background: #dafee7;
+}
+
+.circle-apple {
+    background: #f9ecff;
+}
+
+a {
+    text-decoration: none !important;
+    border-radius: 8px;
+    padding: 10px 0;
+    transition: 0.5s ease;
+}
+
+
+a:hover {
+    background-color: #f4f4f5;
+}
+
+.link-podcast:hover {
+    transform: scale(1.05);
+}
+
+
+.icon {
+    height: 48px;
+    width: auto;
+    position: relative;
+
+}
+
+.icon-apple-podcast {
+    top: 13px;
+    left: 13px;
+}
+
+.icon-google-podcast {
+    top: 12px;
+    left: 12px;
+}
+
+.icon-spotify-podcast {
+    top: 11px;
+    left: 11px;
+}
+
+.algo-melhor-pra-ouvir {
+    color: #7f51bd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.3rem;
+    letter-spacing: -0.065em;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+    .divider-div {
+        border-right: solid #ccc 1px;
+    }
+}
+
+@media not screen and (min-width: 768px) {
+    .divider-div {
+        border-bottom: solid #ccc 1px;
+    }
+}
+
+
+.section{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: -0.065em;
+    line-height: 1.5;
+    color: #616368;
+}
