@@ -1,0 +1,27 @@
+.particles-intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.particles-intro>img {
+    height: 100%;
+    opacity: 1;
+}
+
+.particle-0 {
+    filter: invert(16%) sepia(87%) saturate(2600%) hue-rotate(258deg) brightness(98%) contrast(98%) blur(1px);
+}
+.particle-1 {
+    filter: invert(16%) sepia(87%) saturate(2600%) hue-rotate(258deg) brightness(98%) contrast(98%) blur(2px);
+}
+.particle-neg1 {
+    filter: invert(16%) sepia(87%) saturate(2600%) hue-rotate(258deg) brightness(98%) contrast(98%) blur(4px);
+}
+
+@media (max-width: 992px) {
+    .particles-intro {
+        display: none;
+    }
+}

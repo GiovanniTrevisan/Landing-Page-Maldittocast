@@ -5,47 +5,38 @@ body {
     overflow-x: hidden;
 }
 
+
 .striped-background {
     background-image: linear-gradient(135deg, #7f51bd 37.50%, #664194 37.50%, #664194 50%, #7f51bd 50%, #7f51bd 87.50%, #664194 87.50%, #664194 100%);
     background-size: 5.66px 5.66px;
-}
-
-.navbar {
-    background-color: transparent;
 }
 
 .overlay-transparent {
     background-color: transparent !important;
 }
 
-.row-page {
-    height: 65vh;
-}
-
-.row-page-2 {
-    height: 130vh;
-}
-
-.row-page-3 {
-    height: 195vh;
-}
-
-@media (min-width: 768px) {
-    .row-page {
-        min-height: 65vh;
-    }
-}
-
 .container-body {
-    margin-top: 120px;
+    margin-top: 60px;
 
 }
 
+.social-media {
+    filter: invert(28%) sepia(16%) saturate(6286%) hue-rotate(260deg) brightness(90%) contrast(88%);
+}
 
 .title-maldittocast {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 80px;
+    letter-spacing: -0.065em;
+    line-height: 0.85;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer-maldittocast{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
     letter-spacing: -0.065em;
     line-height: 0.85;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -58,6 +49,28 @@ body {
 
     font-size: 35px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.spotify-embedded {
+    height: 352px;
+}
+
+@media (max-width: 768px) {
+    .title-maldittocast {
+        font-size: 57px;
+    }
+
+    .title-maldittocast-below-text {
+        font-size: 27px;
+    }
+
+    .intro-section {
+        height: calc(95vh - 120px);
+    }
+
+    .spotify-embedded {
+        height: 152px;
+    }
 }
 
 .page-one {
@@ -81,7 +94,7 @@ img {
 }
 
 .malditto-logo-title {
-    width: 120%;
+    width: 150%;
     height: auto;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
     filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.3));
@@ -99,8 +112,9 @@ img {
 }
 
 .celular {
-    width: 110%;
-    height: auto;
+    width: 100%;
+    position: relative;
+    left: 20px;
 }
 
 .redes-sociais {
@@ -142,6 +156,14 @@ img {
     color: #8539a0;
 }
 
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    color: #8539a0;
+}
+
 .um-podcast-que-tentamos {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -159,6 +181,15 @@ img {
     letter-spacing: -0.065em;
     line-height: 0.85;
     color: #616368;
+}
+
+.pontos-section {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    letter-spacing: -0.065em;
+    line-height: 1.5;
+    color: #fff;
 }
 
 .page-one>div>.podcast-section {
@@ -188,6 +219,12 @@ img {
     width: 70px;
     height: 70px;
     margin: 3px;
+}
+
+.circle-sm {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .circle-google {
@@ -241,6 +278,27 @@ a:hover {
     left: 11px;
 }
 
+.icon-bill {
+    top: 14px;
+    left: 15px;
+    height: 62%;
+    filter: invert(34%) sepia(87%) saturate(1692%) hue-rotate(328deg) brightness(102%) contrast(102%);
+}
+
+.icon-mindset {
+    top: 14px;
+    left: 13px;
+    height: 62%;
+    filter: invert(40%) sepia(22%) saturate(2288%) hue-rotate(206deg) brightness(84%) contrast(85%);
+}
+
+.icon-certified {
+    top: 11px;
+    left: 10px;
+    height: 50px;
+    filter: invert(41%) sepia(7%) saturate(4079%) hue-rotate(89deg) brightness(118%) contrast(80%);
+}
+
 .algo-melhor-pra-ouvir {
     color: #7f51bd;
     font-family: 'Poppins', sans-serif;
@@ -263,11 +321,169 @@ a:hover {
 }
 
 
-.section{
+.section {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     letter-spacing: -0.065em;
     line-height: 1.5;
     color: #616368;
+}
+
+.motivos-section {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #616368;
+}
+
+h4 {
+    font-size: 1.2rem;
+    letter-spacing: -0.05em;
+}
+
+.uma-palinha {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: -0.065em;
+    line-height: 1.25;
+    color: #8539a0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #8539a0;
+}
+
+
+.btn-grad {
+    background: rgb(147, 79, 240);
+    background: linear-gradient(14deg, rgba(147, 79, 240, 1) 0%, rgba(75, 38, 120, 1) 100%);
+    padding: 18px 90px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 60px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad-inverse {
+    background: #fff;
+    box-shadow: inherit;
+    color: #8539a0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.btn-grad-inverse:hover {
+    background: rgb(137, 84, 212);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.btn-small {
+    padding: 13px 30px;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.parabens-section {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.maldittoense-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 1;
+    color: #ffbf01;
+    letter-spacing: -0.065em;
+    line-height: 0.5;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .maldittoense-title {
+        text-align: center;
+        font-size: calc(1.4rem + 4vw);
+    }
+}
+
+h6 {
+    color: #ffbf01;
+}
+
+.mockup-phone-background {
+    transform-origin: left top;
+    transform: scale(2.75) translateY(35px);
+}
+
+.mockup-phone-main {
+    transform-origin: center top;
+    transform: scale(3) translateY(35px) translateX(5px);
+}
+
+@media (max-width: 992px) {
+
+    .mockup-phone-main {
+        transform: scale(5) translatex(15px);
+    }
+
+    .mockup-phone-background {
+        transform: scale(4.5) translateX(-5px);
+    }
+}
+
+footer {
+    height: 50vh;
+    width: 100vw;
+    background-color: #00000050;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0x 50px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+/* * {
+    scrollbar-width: none;
+    scrollbar-color: #696969 #ffffff;
+  } */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #0000001e;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffbf01;
+    border-radius: 5px;
 }
