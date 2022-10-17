@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .navbar, .navbar.color-change  {
+    background-color: #7f51bd;
+  }
+}
+
 .navbar strong {
   font-size: 2em;
   width: 250px;
