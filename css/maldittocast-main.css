@@ -2,7 +2,7 @@
 
 body {
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 
@@ -514,4 +514,14 @@ footer {
 *::-webkit-scrollbar-thumb {
     background-color: #ffbf01;
     border-radius: 5px;
+}
+
+
+html,
+html body,
+body #wrapper {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    overflow-x: hidden;
 }
