@@ -33,13 +33,17 @@ body {
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-.footer-maldittocast{
+.footer-maldittocast {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
     letter-spacing: -0.065em;
-    line-height: 0.85;
+    font-size: 1.75rem;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer-maldittocast-emote {
+    font-weight: 400;
+    letter-spacing: 0.1em;
 }
 
 .title-maldittocast-below-text {
@@ -112,9 +116,13 @@ img {
 }
 
 .celular {
+    width: 24vw;
+    height: auto;
+}
+
+.celular-sm {
     width: 100%;
-    position: relative;
-    left: 20px;
+    height: auto;
 }
 
 .redes-sociais {
@@ -122,6 +130,10 @@ img {
     bottom: 120px;
     left: 60px;
     height: auto;
+}
+
+.filter-black {
+    filter: grayscale(100%) brightness(0);
 }
 
 @media (min-width: 768px) {
@@ -183,13 +195,19 @@ h5 {
     color: #616368;
 }
 
+.pontos h6 {
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.9);
+}
+
 .pontos-section {
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.9rem;
     letter-spacing: -0.065em;
     line-height: 1.5;
     color: #fff;
+    text-shadow: 0px 0px 7px #000;
+
 }
 
 .page-one>div>.podcast-section {
@@ -239,11 +257,15 @@ h5 {
     background: #f9ecff;
 }
 
+.circle-points {
+    filter: brightness(0) saturate(100%) invert(28%) sepia(82%) saturate(831%) hue-rotate(249deg) brightness(90%) contrast(98%);
+}
+
 a {
     text-decoration: none !important;
     border-radius: 8px;
     padding: 10px 0;
-    transition: 0.5s ease;
+    transition: 0.35s ease;
 }
 
 
@@ -252,7 +274,7 @@ a:hover {
 }
 
 .link-podcast:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -316,7 +338,7 @@ a:hover {
 
 @media not screen and (min-width: 768px) {
     .divider-div {
-        border-bottom: solid #ccc 1px;
+        border-bottom: 0;
     }
 }
 
@@ -412,7 +434,7 @@ h2 {
     font-size: 1.4rem;
     line-height: 1;
     color: #fff;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .maldittoense-title {
@@ -423,7 +445,7 @@ h2 {
     color: #ffbf01;
     letter-spacing: -0.065em;
     line-height: 0.5;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 768px) {
