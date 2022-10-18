@@ -472,17 +472,17 @@ h6 {
 }
 
 .mockup-phone-main {
-    transform: scale(3.75) translateY(35px) translateX(5px);
+    transform: scale(2.75) translateY(35px) translateX(5px);
 }
 
 @media (max-width: 992px) {
 
     .mockup-phone-main {
-        transform: scale(5) translatex(15px);
+        transform: scale(4.15) translatex(15px);
     }
 
     .mockup-phone-background {
-        transform: scale(4.5) translateX(-5px);
+        transform: scale(4.25) translateX(5px);
     }
 }
 
