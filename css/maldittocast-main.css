@@ -117,6 +117,7 @@ img {
 
 .celular {
     width: 24vw;
+    max-width: 300px;
     height: auto;
 }
 
@@ -447,7 +448,7 @@ h2 {
 .maldittoense-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 5rem;
     line-height: 1;
     color: #ffbf01;
     letter-spacing: -0.065em;
@@ -487,7 +488,7 @@ h6 {
 }
 
 footer {
-    height: 50vh;
+    height: 300px;
     width: 100vw;
     background-color: #00000050;
     -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
