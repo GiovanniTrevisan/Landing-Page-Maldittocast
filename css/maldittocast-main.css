@@ -56,7 +56,7 @@ body {
 }
 
 .spotify-embedded {
-    height: 352px;
+    height: 300px;
 }
 
 @media (max-width: 768px) {
@@ -75,7 +75,7 @@ body {
     .spotify-embedded {
         height: 152px;
     }
-}
+}   
 
 .page-one {
     padding-top: 22.5%;
@@ -98,12 +98,18 @@ img {
 }
 
 .malditto-logo-title {
-    width: 150%;
+    width: 145%;
     height: auto;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
     filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.3));
     -webkit-animation: rotation 240s infinite linear;
 }
+
+/* .malditto-logo-div {
+    height: calc(50vh + 150px);
+    margin-top: 0px !important;
+    padding: 0 !important;
+} */
 
 @-webkit-keyframes rotation {
     from {
@@ -270,18 +276,31 @@ a {
 }
 
 
-a:hover {
+a:hover,
+a:active,
+a:focus {
     background-color: #f4f4f5;
 }
 
-.link-podcast:hover {
+.link-podcast:hover,
+.link-podcast:active,
+.link-podcast:focus {
     transform: scale(1.05);
     background-color: #7f51bd;
     color: #fff;
 
 }
 
-.link-podcast:hover>div>p {
+.link-podcast:hover>div>.circle,
+.link-podcast:active>div>.circle,
+.link-podcast:focus>div>.circle {
+    background: #fff;
+}
+
+
+.link-podcast:hover>div>p,
+.link-podcast:active>div>p,
+.link-podcast:focus>div>p {
     color: #fff;
 }
 
@@ -410,7 +429,9 @@ h2 {
     color: #fff;
 }
 
-.btn-grad:hover {
+.btn-grad:hover,
+.btn-grad:active,
+.btn-grad:focus {
     background-position: right center;
     color: #fff;
     text-decoration: none;
@@ -423,7 +444,9 @@ h2 {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.btn-grad-inverse:hover {
+.btn-grad-inverse:hover,
+.btn-grad-inverse:active,
+.btn-grad-inverse:focus {
     background: rgb(137, 84, 212);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
     text-decoration: none;
@@ -479,7 +502,7 @@ h6 {
 @media (max-width: 992px) {
 
     .mockup-phone-main {
-        transform: scale(4.15) translatex(15px) translateY(7px) ;
+        transform: scale(4.15) translatex(15px) translateY(7px);
     }
 
     .mockup-phone-background {
@@ -520,9 +543,14 @@ footer {
 
 html,
 html body,
-body #wrapper {
+body #wrapper,
+.particles-intro {
     width: 100% !important;
     min-width: 0 !important;
     max-width: none !important;
     overflow-x: hidden;
+}
+
+.particles-intro {
+    z-index: -1;
 }
